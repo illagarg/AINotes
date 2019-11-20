@@ -1,0 +1,9 @@
+{
+  "name": "com.tobiieyex.chromeextension.v4",
+  "description": "Tobii EyeX chrome Extension",
+  "path": "C:/Users/illag/OneDrive/Desktop/tobiieyeX-plugin-chrome-master/NativeMessagingExample/NativeMessagingExample/bin/Debug/NativeMessagingExample.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://anfpjjfjndcdaccldbnalcmocegjnnko/"
+  ]
+}

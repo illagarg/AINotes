@@ -1,0 +1,199 @@
+
+p {
+	text-align:   justify;
+	margin-left:  300px;
+	margin-right: 300px;
+	font-size: 32px;
+	position: relative;
+
+}
+
+.para:before{ content: '' ; position: absolute; height: 100%; width: 2px; top: 0; left: 150px; background: #000; }
+.para:after{ content: '' ; position: absolute; height: 100%; width: 2px; top: 0; right: 150px; background: #000; }
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+/* . for class and # for id*/
+#box {
+	position: absolute;
+  top: 750px;
+  left: 120px;
+  font: 100px "Lucida Grande", "Helvetica", "Arial", "sans-serif";
+
+}
+
+/*#timer{*/
+  /*position: fixed;*/
+  /*top: 700px;
+  left: 120px;
+  font: 60px "Lucida Grande";*/
+  /*padding: 0.5ex;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  font-size: 2em;
+  border-radius: 0.5ex;
+  text-align: center;
+}*/
+
+#timer.stick{
+  /*position: -webkit-sticky;*/
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  border-radius: 0 0 0.5em 0.5em;
+  padding: 0.5ex;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  font-size: 2em;
+  border-radius: 0.5ex;
+  text-align: center;
+}
+
+#analysis{
+  position: absolute;
+  top: 1400px;
+  left: 120px;
+  background-color: #1F86DE; 
+  color: black; 
+  border: 1px solid green;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+/*#stopTime{
+  position: absolute;
+  top: 1500px;
+  left: 120px;
+  background-color: #1F86DE; 
+  color: black; 
+  border: 1px solid green;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}*/
+
+#speedChecker{
+  position: absolute;
+  top: 1250px;
+  left: 120px;
+  background-color: red; 
+  color: black; 
+  border: 1px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+.text{
+	position: absolute;
+	top: 950px;
+  left: 120px;
+  background-color: green; 
+  color: black; 
+  border: 1px solid green;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#speak{
+	position: absolute;
+	top: 1100px;
+  left: 130px;
+}
+
+.r_speed_button{
+  position: absolute;
+  top: 800px;
+  right: 120px;
+}
+
+.r_speed_button2{
+  position: absolute;
+  top: 900px;
+  right: 120px;
+}
+
+#button1 {
+  background-color: #3495eb; 
+  color: black; 
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#button2 {
+  background-color: #3495eb; 
+  color: black;
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#readingSpeed{
+  position: absolute;
+  top: 1100px;
+  right: 120px;
+  background-color: #8532A8; 
+  color: black;
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#readingSpeedOut{
+  position: absolute;
+  top: 1250px;
+  right: 120px;
+  background-color: #8532A8; 
+  color: black;
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}

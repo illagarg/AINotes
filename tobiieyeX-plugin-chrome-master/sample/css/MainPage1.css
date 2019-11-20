@@ -1,0 +1,121 @@
+
+p {
+	text-align:   justify;
+	margin-left:  300px;
+	margin-right: 300px;
+	/*font-size:    2vw;*/
+	font-size: 32px;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+/* . for class and # for id*/
+#box {
+	position: absolute;
+    top: 750px;
+    left: 120px;
+  /*width: 50px;*/
+  /*height: 20px;*/
+  /*border: 2px normal rgb(255, 255, 255);*/
+  /*padding: 4px 6px;*/
+    font: 100px "Lucida Grande", "Helvetica", "Arial", "sans-serif"
+
+}
+
+.play_button{
+	position: absolute;
+    top: 1990px;
+    left: 220px;
+}
+
+.popup{
+	text-align:   center;
+	margin-top:   50px;
+	margin-left:  300px;
+	margin-right: 300px;
+	font-size:    2vw;
+}
+
+.r_speed_button{
+	position: absolute;
+	top: 800px;
+    right: 120px;
+}
+
+.text{
+	position: absolute;
+	top: 950px;
+    left: 140px;
+}
+
+#speak{
+	position: absolute;
+	top: 1100px;
+    left: 130px;
+}
+#button1 {
+  background-color: white; 
+  color: black; 
+  /*border: 2px solid #4CAF50;*/
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#button2 {
+  background-color: white; 
+  color: black; 
+  /*border: 2px solid #008CBA;*/
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#button2:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+#button3 {
+  background-color: white; 
+  color: black; 
+  /*border: 2px solid #f44336;*/
+  border: 1px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+#button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
